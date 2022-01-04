@@ -1,0 +1,38 @@
+version: '3.8'
+services:
+  redis:
+    extends:
+      file: docker-compose-redis.yml
+      service: redis
+    env_file: ./.env.docker
+
+  worker:
+    image: chat-stats:latest
+    build:
+      context: .
+    command: npm run start:worker
+    depends_on:
+    - redis
+    env_file: ./.env.docker
+    volumes:
+    - .:/app/
+    - /app/node_modules
+    - ./.env.docker:/app/.env
+
+  api:
+    image: chat-stats:latest
+    command: npm run start
+    depends_on:
+    - redis
+    - worker
+    env_file: ./.env.docker
+    ports:
+    - $NODE_PORT:$NODE_PORT
+    volumes:
+    - .:/app/
+    - /app/node_modules
+    - ./.env.docker:/app/.env
+
+volumes:
+  chat-stats-data:
+    external: false

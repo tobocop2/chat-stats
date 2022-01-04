@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  redis:
+    image: redis
+    volumes:
+    - chat-stats-data:/data/
+
+    ports:
+    - $REDIS_PORT:$REDIS_PORT
+    env_file: ./.env
+
+volumes:
+  chat-stats-data:
+    external: false

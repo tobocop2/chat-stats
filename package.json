@@ -1,0 +1,68 @@
+{
+  "name": "fastify-starter",
+  "version": "0.0.1",
+  "description": "Fastify Typescript Starter",
+  "main": "app.ts",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npm run build:ts && tsc -p test/tsconfig.test.json && cross-env TS_NODE_FILES=true tap --ts test/**/*.test.ts",
+    "redis:up": "docker-compose -f docker-compose-redis.yml up -d",
+    "redis:down": "docker-compose -f docker-compose-redis.yml down --remove-orphans",
+    "start": "ts-node src/server.ts",
+    "start:worker": "ts-node src/worker",
+    "dev": "npm run redis:up && ts-node src/server.ts",
+    "dev:worker": "npm run redis:up && ts-node src/worker",
+    "build:ts": "npm run clean && tsc",
+    "clean": "rimraf dist",
+    "dev:watch": "npm run redis:up && ts-node-dev src/server.ts",
+    "prepare": "husky install",
+    "compile-schemas": "json2ts -i src/schemas -o src/types"
+  },
+  "author": "Tobias Perelstein",
+  "license": "MIT",
+  "dependencies": {
+    "@sinclair/typebox": "^0.23.2",
+    "close-with-grace": "^1.1.0",
+    "env-schema": "^3.5.1",
+    "fastify": "^3.25.1",
+    "fastify-autoload": "^3.9.0",
+    "fastify-cli": "^2.14.0",
+    "fastify-cors": "^6.0.2",
+    "fastify-plugin": "^3.0.0",
+    "fastify-redis": "^4.3.3",
+    "fastify-swagger": "^4.13.0",
+    "fastify-tsconfig": "^1.0.1",
+    "fluent-json-schema": "^3.0.1",
+    "ioredis": "^4.28.2",
+    "swagger-jsdoc": "^6.1.0"
+  },
+  "devDependencies": {
+    "@types/busboy": "0.3.1",
+    "@types/ioredis": "^4.28.6",
+    "@types/node": "16.11.17",
+    "@types/swagger-jsdoc": "6.0.1",
+    "@types/tap": "15.0.5",
+    "@types/xregexp": "^4.4.0",
+    "@typescript-eslint/eslint-plugin": "5.8.1",
+    "@typescript-eslint/parser": "5.8.1",
+    "cross-env": "7.0.3",
+    "eslint": "8.6.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-config-xo": "0.39.0",
+    "eslint-config-xo-typescript": "0.48.0",
+    "husky": "7.0.4",
+    "json-schema-to-typescript": "10.1.5",
+    "lint-staged": "12.1.4",
+    "prettier": "^2.5.1",
+    "tap": "15.1.5",
+    "ts-node": "10.4.0",
+    "ts-node-dev": "1.1.8",
+    "typescript": "4.5.4"
+  },
+  "lint-staged": {
+    "*.{js,ts}": "eslint --cache --fix",
+    "*.{js,ts,css,md}": "prettier --write"
+  }
+}
