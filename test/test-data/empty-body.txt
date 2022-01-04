@@ -1,0 +1,2 @@
+event: privmsg
+se-data: {"command":"","room":"#yulayabgu","nick":"scropion77","target":"","body":"","tags":"badge-info=subscriber/1;badges=subscriber/0,premium/1;client-nonce=58c4b417b26ce0d950ac86b72b2419a8;color=;display-name=Scropion77;emotes=;first-msg=0;flags=;id=60c03875-bcf2-466f-bead-36606ca0480a;mod=0;room-id=90963543;subscriber=1;tmi-sent-ts=1641241341776;turbo=0;user-id=687024524;user-type="}

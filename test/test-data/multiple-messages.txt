@@ -1,0 +1,38 @@
+event: privmsg
+se-data: {"command":"","room":"#slicyyyon60fps","nick":"slicyyyy","target":"","body":"MEUBEL","tags":"badge-info=;badges=;color=;display-name=slicyyyy;emotes=;first-msg=0;flags=;id=335651d2-a570-4688-9df3-bb90269cfe17;mod=0;room-id=714964074;subscriber=0;tmi-sent-ts=1641241341776;turbo=0;user-id=757019037;user-type="}
+
+event: privmsg
+se-data: {"command":"","room":"#slicyyyon60fps","nick":"slicyyyy","target":"","body":"MEUBEL","tags":"badge-info=;badges=;color=;display-name=slicyyyy;emotes=;first-msg=0;flags=;id=335651d2-a570-4688-9df3-bb90269cfe17;mod=0;room-id=714964074;subscriber=0;tmi-sent-ts=1641241341776;turbo=0;user-id=757019037;user-type="}
+
+event: privmsg
+se-data: {"command":"","room":"#slicyyyon60fps","nick":"slicyyyy","target":"","body":"MEUBEL","tags":"badge-info=;badges=;color=;display-name=slicyyyy;emotes=;first-msg=0;flags=;id=335651d2-a570-4688-9df3-bb90269cfe17;mod=0;room-id=714964074;subscriber=0;tmi-sent-ts=1641241341776;turbo=0;user-id=757019037;user-type="}
+
+event: privmsg
+se-data: {"command":"","room":"99","nick":"99","target":"","body":<you actually hear my favorite trucks?","tags":"badge-info=;badges=premium/1;client-nonce=bf5e3c36555dd97bc2fd3011179b5342;color=#FF0000;display-name=zze3k;emotes=;flags=;id=8fe6dbdc-bd0f-4a40-a037-6724622f61a6;mod=0;room-id=199067909;subscriber=0;tmi-sent-ts=1622390651151;turbo=0;user-id=116549072;user-type="}
+
+event: privmsg
+se-data: {"command":"","room":"#yulayabgu","nick":"scropion77","target":"","body":"kap gel başkan","tags":"badge-info=subscriber/1;badges=subscriber/0,premium/1;client-nonce=58c4b417b26ce0d950ac86b72b2419a8;color=;display-name=Scropion77;emotes=;first-msg=0;flags=;id=60c03875-bcf2-466f-bead-36606ca0480a;mod=0;room-id=90963543;subscriber=1;tmi-sent-ts=1641241341776;turbo=0;user-id=687024524;user-type="}
+
+event: privmsg
+se-data: {"command":"","room":"#samiachanneltv","nick":"twyx610","target":"","body":"Oooh?","tags":"badge-info=subscriber/2;badges=vip/1,subscriber/0,glhf-pledge/1;color=#FF0000;display-name=Twyx610;emotes=;first-msg=0;flags=;id=f1ae08c4-1328-433a-97ae-010b75cf772c;mod=0;room-id=585226551;subscriber=1;tmi-sent-ts=1641241341800;turbo=0;user-id=145273165;user-type="}
+
+event: privmsg
+se-data: {"command":"","room":"#4ozo","nick":"zexvy","target":"","body":"you seen what Ab did","tags":"badge-info=;badges=premium/1;client-nonce=f071acccc0c83d0760dca9620d189771;color=#5F9EA0;display-name=zexvy;emotes=;first-msg=0;flags=;id=23545af6-af06-47af-a79f-823669d23f0b;mod=0;room-id=248475050;subscriber=0;tmi-sent-ts=1641241341810;turbo=0;user-id=563635221;user-type="}
+
+event: privmsg
+se-data: {"command":"","room":"100","nick":"100","target":"","body":<you actually hear my favorite trucks?","tags":"badge-info=;badges=premium/1;client-nonce=bf5e3c36555dd97bc2fd3011179b5342;color=#FF0000;display-name=zze3k;emotes=;flags=;id=8fe6dbdc-bd0f-4a40-a037-6724622f61a6;mod=0;room-id=199067909;subscriber=0;tmi-sent-ts=1622390651151;turbo=0;user-id=116549072;user-type="}
+
+event: privmsg
+se-data: {"command":"","room":"#danthebnn","nick":"vidaalheia","target":"","body":"danthe troca o figo po Moore?","tags":"badge-info=;badges=premium/1;color=;display-name=vidaalheia;emotes=;first-msg=0;flags=;id=96e1f9ad-a2f9-4b17-bb22-7bc422c32ab1;mod=0;room-id=129851063;subscriber=0;tmi-sent-ts=1641241341811;turbo=0;user-id=243855216;user-type="}
+
+event: privmsg
+se-data: {"command":"","room":"100","nick":"100","target":"","body":<you actually hear my favorite trucks?","tags":"badge-info=;badges=premium/1;client-nonce=bf5e3c36555dd97bc2fd3011179b5342;color=#FF0000;display-name=zze3k;emotes=;flags=;id=8fe6dbdc-bd0f-4a40-a037-6724622f61a6;mod=0;room-id=199067909;subscriber=0;tmi-sent-ts=1622390651151;turbo=0;user-id=116549072;user-type="}
+
+event: privmsg
+se-data: {"command":"","room":"#4lveeri4no","nick":"enzo2009123","target":"","body":"79790","tags":"badge-info=;badges=;color=;display-name=enzo2009123;emotes=;first-msg=0;flags=;id=a72cd069-4180-49bd-9cf8-11a78d4a2463;mod=0;room-id=717702973;subscriber=0;tmi-sent-ts=1641241341845;turbo=0;user-id=758050700;user-type="}
+
+event: privmsg
+se-data: {"command":"","room":"#sadparu","nick":"moczark","target":"","body":"our","tags":"badge-info=;badges=;color=;display-name=moczark;emotes=;first-msg=0;flags=;id=d1147f95-2a79-4ae1-a7e7-1be3dc18e077;mod=0;room-id=99514415;subscriber=0;tmi-sent-ts=1641241341853;turbo=0;user-id=435539034;user-type="}
+
+event: privmsg
+se-data: {"command":"","room":"#sadparu","nick":"moczark","target":"","body":"our","tags":"badge-info=;badges=;color=;display-name=moczark;emotes=;first-msg=0;flags=;id=d1147f95-2a79-4ae1-a7e7-1be3dc18e077;mod=0;room-id=99514415;subscriber=0;tmi-sent-ts=1641241341853;turbo=0;user-id=435539034;user-type="}

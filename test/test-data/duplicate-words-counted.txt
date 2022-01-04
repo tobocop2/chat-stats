@@ -1,0 +1,2 @@
+event: privmsg
+se-data: {"command":"","room":"#napitec733","nick":"fossabot","target":"","body":"rgb rgb rgb","tags":"badge-info=;badges=moderator/1,partner/1;color=#1976D2;display-name=Fossabot;emotes=;first-msg=0;flags=;id=84d50fd4-12f2-4d5b-862b-44582a37cff8;mod=1;room-id=735265971;subscriber=0;tmi-sent-ts=1641241639829;turbo=0;user-id=237719657;user-type=mod"}

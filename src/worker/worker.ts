@@ -34,6 +34,7 @@ export class MessageWorker {
   private readonly msgRequestor:
     | HttpMessageRequester
     | TextBasedMessageRequestor
+
   private readonly closeClient: Boolean
 
   constructor(opts: Config = config, closeClient: Boolean = true) {
@@ -87,10 +88,10 @@ export class MessageWorker {
     if (obj.room.trim()) pipeline.zincrby(ROOMS_KEY, 1, obj.room)
     if (obj.nick.trim()) pipeline.zincrby(NICKS_KEY, 1, obj.nick)
 
-    words.reduce(
-      (acc: Pipeline, word: string) => acc.zincrby(WORDS_KEY, 1, word),
-      pipeline
-    )
+    words.reduce((acc: Pipeline, word: string) => {
+      if (word.trim()) acc.zincrby(WORDS_KEY, 1, word)
+      return acc
+    }, pipeline)
 
     const ret: PiplineResponse = await pipeline.exec()
     // message has been written for consumption at this point so any additional handling can be fired and forgotten
@@ -129,6 +130,7 @@ export class MessageWorker {
     if (this.env !== 'test') {
       console.log('Processing messages...')
     }
+
     const rl: readline.Interface = readline.createInterface({
       input: response
     })

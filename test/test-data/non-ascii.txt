@@ -1,0 +1,2 @@
+event: privmsg
+se-data: {"command":"","room":"#elnetv","nick":"meal_prepared_by_mom","target":"","body":"ㅋㅋㅋㅋㅋㅋㅋ","tags":"badge-info=;badges=glitchcon2020/1;color=#FFFFFF;display-name=엄마가준비한식사;emotes=;first-msg=0;flags=;id=489288cc-9f9d-409e-b339-6691e08f70c5;mod=0;room-id=138960428;subscriber=0;tmi-sent-ts=1641241640315;turbo=0;user-id=493882815;user-type="}

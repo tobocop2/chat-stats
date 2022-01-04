@@ -1,0 +1,2 @@
+event: privmsg
+se-data: {"command":"","room":"99","nick":"99","target":"","body":<you actually hear my favorite trucks?","tags":"badge-info=;badges=premium/1;client-nonce=bf5e3c36555dd97bc2fd3011179b5342;color=#FF0000;display-name=zze3k;emotes=;flags=;id=8fe6dbdc-bd0f-4a40-a037-6724622f61a6;mod=0;room-id=199067909;subscriber=0;tmi-sent-ts=1622390651151;turbo=0;user-id=116549072;user-type="}

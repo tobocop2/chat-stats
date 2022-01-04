@@ -8,8 +8,10 @@
   },
   "scripts": {
     "test": "npm run build:ts && tsc -p test/tsconfig.test.json && cross-env TS_NODE_FILES=true tap --ts test/**/*.test.ts",
+    "down": "docker-compose down --remove-orphans",
     "redis:up": "docker-compose -f docker-compose-redis.yml up -d",
     "redis:down": "docker-compose -f docker-compose-redis.yml down --remove-orphans",
+    "redis:delete": "docker-compose -f docker-compose-redis.yml rm -s -v redis",
     "start": "ts-node src/server.ts",
     "start:worker": "ts-node src/worker",
     "dev": "npm run redis:up && ts-node src/server.ts",
@@ -18,7 +20,11 @@
     "clean": "rimraf dist",
     "dev:watch": "npm run redis:up && ts-node-dev src/server.ts",
     "prepare": "husky install",
-    "compile-schemas": "json2ts -i src/schemas -o src/types"
+    "compile-schemas": "json2ts -i src/schemas -o src/types",
+    "docker:deploy": "docker-compose up -d",
+    "docker:api:logs": "docker-compose logs --tail=all -f api",
+    "docker:worker:logs": "docker-compose logs --tail=all -f worker",
+    "docker:redis:logs": "docker-compose logs --tail=all -f redis"
   },
   "author": "Tobias Perelstein",
   "license": "MIT",

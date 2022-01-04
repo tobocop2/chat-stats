@@ -1,0 +1,2 @@
+event: privmsg
+se-data: {"command":"CLEARCHAT","room":"","nick":"","target":"#forsen","body":"dashh_u","tags":"ban-duration=10;room-id=22484632;target-user-id=604459688;tmi-sent-ts=1641241346033"}
